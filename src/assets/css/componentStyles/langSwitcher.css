@@ -1,26 +1,33 @@
 #langs {
-    color: blue;
     grid-column: 12/13;
     justify-self: end;
-    
     color: var(--text-color);
     border: none;
     font-weight: 400;
     font-size: 16px;
     background-color: transparent;
+    cursor: pointer;
   }
 
-
+option {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+}
 
 @media (max-width: 1024px) {
     #langs {
+        font-size: 14px;
+    }
+
+    option {
         font-size: 14px;
     }
 }
 
 @media (max-width: 768px) {
     #langs {
-        display: none;
+        grid-column: 5/6;
     }
 }
 

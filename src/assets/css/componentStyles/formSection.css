@@ -14,6 +14,11 @@
     height: auto;
 }
 
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 .formContent {
     width: 50%;
@@ -42,12 +47,11 @@
 }
 
 .formBtn {
-    width: 50%;
+    width: 100%;
     height: 50px;
     background-color: var(--highlights-color);
     border: none;
     border-radius: 5px;
-    margin-top: 10px;
 }
 
 .formBtn:hover {

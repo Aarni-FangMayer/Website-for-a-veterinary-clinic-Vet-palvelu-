@@ -1,0 +1,36 @@
+.modalWindowSucsess {
+    background-color: rgba(47, 43, 36, 0.5);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sucsessMassage {
+    width: 750px;
+    padding: 50px 100px;
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    position: relative;
+}
+
+.modalWindowSucsess img {
+    display: block;
+    margin: 0 auto 55px auto;
+}
+
+.sucsessTitle {
+    text-align: center;
+}
+
+.btnClose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background-color: transparent;
+}

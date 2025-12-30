@@ -76,6 +76,9 @@ h1 {
 }
 
 @media (max-width: 1024px) {
+    .promoSection {
+        height: 60vh;
+    }
     h1 {
         font-size: 32px;
         color: var(--light-text-color);

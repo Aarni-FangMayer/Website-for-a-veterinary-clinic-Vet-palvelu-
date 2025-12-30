@@ -16,7 +16,9 @@ class Header extends Component {
                 <a href="#about">{translations.header.aboutText}</a>
               </li>
               <li className="navMenuItem">
-                <a href="#servicesSectionStart">{translations.header.priceText}</a>
+                <a href="#servicesSectionStart">
+                  {translations.header.priceText}
+                </a>
               </li>
               <li className="navMenuItem">
                 <a href="#reviews">{translations.header.reviewText}</a>
